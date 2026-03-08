@@ -32,18 +32,36 @@ const REVIEWS: Record<Difficulty, Review[]> = {
     { text: "Waste of time. Don't watch it.", sentiment: "Negative" },
     { text: "Brilliant acting and great plot.", sentiment: "Positive" },
     { text: "Boring and predictable story.", sentiment: "Negative" },
-    { text: "A true masterpiece of cinema.", sentiment: "Positive" }
+    { text: "A true masterpiece of cinema.", sentiment: "Positive" },
+    { text: "Terrible script and poor direction.", sentiment: "Negative" },
+    { text: "Loved every minute of it!", sentiment: "Positive" },
+    { text: "Not my cup of tea at all.", sentiment: "Negative" },
+    { text: "Fantastic visuals and great sound.", sentiment: "Positive" },
+    { text: "I fell asleep halfway through.", sentiment: "Negative" }
   ],
   Medium: [
     { text: "The acting was superb, but the plot felt a bit rushed in the second half. Overall a decent watch for a weekend.", sentiment: "Positive" },
     { text: "I expected more from this director. The visuals are stunning but the story is hollow and unengaging for most of the runtime.", sentiment: "Negative" },
     { text: "A solid performance by the lead actor saves what would otherwise be a very mediocre script. Worth it for the ending.", sentiment: "Positive" },
-    { text: "Too many plot holes and unnecessary characters. It tries to be deep but ends up being confusing and frustrating.", sentiment: "Negative" }
+    { text: "Too many plot holes and unnecessary characters. It tries to be deep but ends up being confusing and frustrating.", sentiment: "Negative" },
+    { text: "The chemistry between the leads is electric, making the somewhat predictable romance feel fresh and exciting.", sentiment: "Positive" },
+    { text: "While the action sequences are well-choreographed, the lack of character development makes it hard to care about the outcome.", sentiment: "Negative" },
+    { text: "A surprisingly touching story that manages to avoid most of the usual genre tropes. A hidden gem for sure.", sentiment: "Positive" },
+    { text: "The dialogue is incredibly cheesy and the special effects look dated even for a movie made ten years ago.", sentiment: "Negative" },
+    { text: "It starts slow but builds into a powerful climax that will leave you thinking for days. Definitely worth the wait.", sentiment: "Positive" },
+    { text: "The pacing is all over the place, and the tonal shifts between comedy and drama are jarring and ineffective.", sentiment: "Negative" }
   ],
   Complex: [
     { text: "A profound exploration of human nature set against a backdrop of cosmic indifference. While some might find the pacing slow, the deliberate unfolding of the narrative allows for deep character development that is rarely seen in modern blockbusters. The ending is particularly haunting and thought-provoking.", sentiment: "Positive" },
     { text: "Despite the high production values and an A-list cast, the film fails to deliver on its promising premise. The dialogue is often clunky and the motivations of the secondary characters are never fully explained, leading to a confusing and ultimately unsatisfying climax that feels earned by none of the preceding events.", sentiment: "Negative" },
-    { text: "An intricate tapestry of emotions and visual splendor. The director manages to balance multiple storylines with grace, culminating in a finale that is both emotionally resonant and intellectually stimulating. It's a rare film that demands multiple viewings to fully appreciate its depth.", sentiment: "Positive" }
+    { text: "An intricate tapestry of emotions and visual splendor. The director manages to balance multiple storylines with grace, culminating in a finale that is both emotionally resonant and intellectually stimulating. It's a rare film that demands multiple viewings to fully appreciate its depth.", sentiment: "Positive" },
+    { text: "The film attempts to tackle complex philosophical themes but ultimately gets bogged down in its own self-importance. The non-linear structure feels more like a gimmick to hide a thin plot rather than a necessary narrative choice, leaving the audience feeling more exhausted than enlightened by the time the credits roll.", sentiment: "Negative" },
+    { text: "A breathtaking cinematic achievement that pushes the boundaries of the medium. The seamless integration of practical effects and CGI creates an immersive world that feels both alien and strangely familiar. It's a testament to the power of visionary storytelling and meticulous craftsmanship.", sentiment: "Positive" },
+    { text: "While the cinematography is undeniably beautiful, it cannot compensate for a script that is both derivative and emotionally distant. The characters feel like archetypes rather than real people, and their struggles fail to evoke any genuine empathy, resulting in a cold and sterile viewing experience.", sentiment: "Negative" },
+    { text: "A masterclass in suspense and psychological depth. The director uses shadow and silence to create a palpable sense of dread that lingers long after the film has ended. The lead performance is nothing short of transformative, capturing the character's descent into madness with chilling precision.", sentiment: "Positive" },
+    { text: "The movie suffers from an identity crisis, unsure if it wants to be a gritty political thriller or a high-octane action flick. This indecision results in a disjointed narrative that fails to satisfy on either front, leaving the viewer with a sense of missed potential and wasted talent.", sentiment: "Negative" },
+    { text: "A vibrant and energetic celebration of life and culture. The soundtrack is infectious, and the performances are filled with such genuine joy that it's impossible not to be swept up in the film's infectious spirit. It's a rare example of a movie that is both deeply personal and universally appealing.", sentiment: "Positive" },
+    { text: "The plot relies far too heavily on convenient coincidences and illogical character choices to drive the story forward. By the third act, the narrative has completely unraveled, leading to a conclusion that feels forced and unearned, undermining whatever goodwill the film had managed to build up initially.", sentiment: "Negative" }
   ]
 };
 
