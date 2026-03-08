@@ -1,0 +1,5 @@
+{
+  "name": "Sentiment Labeler",
+  "description": "A mobile-optimized sentiment analysis labeling interface for IMDB reviews, styled as a data contribution center.",
+  "requestFramePermissions": []
+}
